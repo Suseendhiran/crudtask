@@ -36,7 +36,7 @@ dotenv.config();
 
 const app = express();
 
-app.listen(3000);
+app.listen(process.env.PORT);
 app.use(express.json());
 app.use(cors());
 
